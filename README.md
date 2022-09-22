@@ -1,6 +1,24 @@
-# 19 Progressive Web Applications (PWA): Text Editor
+# Module-18-NoSQL-Social-Network-API
 
-## Your Task
+## Table of Content
+
+• [My Task](#my-task)
+
+• [User Story](#user-story)
+
+• [Acceptance Criteria](#acceptance-criteria)
+
+• [Mock-Up](#mock-up)
+
+• [Installation](#installation)
+
+• [Usage](#usage)
+
+• [Skills Used](#skills-used)
+
+• [Credits](#credits)
+
+## My Task
 
 As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
 
@@ -50,93 +68,43 @@ THEN I should have proper build scripts for a webpack application
 
 ## Mock-Up
 
-The following animation demonstrates the application functionality:
+Please find MP4 of walk through below
 
-![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
+[click here for mp4](https://drive.google.com/file/d/1KA5Wj4F7cwlW_VYTYLd45rqNyXwcyxiX/view)
 
-The following image shows the application's `manifest.json` file:
+Please find GIF of walk through below
 
-![Demonstration of the finished Module 19 Challenge with a manifest file in the browser.](./Assets/01-manifest.png)
+![working example gif](./Assets/Module-18-NoSQL-Social-Network-API.gif)
 
-The following image shows the application's registered service worker:
+Please find jpg of walk through screen grabs below
 
-![Demonstration of the finished Module 19 Challenge with a registered service worker in the browser.](./Assets/02-service-worker.png)
+![working example jpg](./Assets/add-user-insomnia.png)
+![working example jpg](./Assets/all-users-insomnia.png)
 
-The following image shows the application's IndexedDB storage:
+## Installation
 
-![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+```
+npm i
+```
 
-## Grading Requirements
+## Usage
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+To run this application please use the command line:
 
-This Challenge is graded based on the following criteria:
+1. Open the repository in your terminal or bash.
+2. Start the server by entering `npm run dev`.
+3. Test the API routes using Insomnia.
 
-### Technical Acceptance Criteria: 40%
+## Skills Used
 
-* Satisfies all of the above acceptance criteria plus the following:
+- Insomnia
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
+## Credits
 
-  * The application works without an internet connection
-
-  * Automatically saves content inside the text editor when the DOM window is unfocused
-
-  * Bundled with webpack
-
-  * Create a service worker with workbox that Caches static assets
-
-  * The application should use babel in order to use async / await
-
-  * Application must have a generated `manifest.json` using the `WebpackPwaManifest` plug-in
-
-  * Can be installed as a Progressive Web Application
-
-### Deployment: 32%
-
-* Application deployed to Heroku at live URL with build scripts
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [Express.js](https://www.npmjs.com/package/express)
+- [Insomnia](https://insomnia.rest/download)
