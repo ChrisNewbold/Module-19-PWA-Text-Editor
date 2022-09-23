@@ -70,16 +70,17 @@ THEN I should have proper build scripts for a webpack application
 
 Please find MP4 of walk through below
 
-[click here for mp4](https://drive.google.com/file/d/1KA5Wj4F7cwlW_VYTYLd45rqNyXwcyxiX/view)
+[click here for mp4](https://drive.google.com/file/d/1_Xtv83pGsYgsXpLRt1WB7F1v2GB1qJwr/view)
 
 Please find GIF of walk through below
 
-![working example gif](./Assets/Module-18-NoSQL-Social-Network-API.gif)
+![working example gif](./Assets/Just-Another-Text-Editor.gif)
 
 Please find jpg of walk through screen grabs below
 
-![working example jpg](./Assets/add-user-insomnia.png)
-![working example jpg](./Assets/all-users-insomnia.png)
+![working example jpg](./Assets/Heroku-App.png)
+![working example jpg](./Assets/Inspect-Application.png)
+![working example jpg](./Assets/downloaded-pwa.png)
 
 ## Installation
 
@@ -89,22 +90,25 @@ npm i
 
 ## Usage
 
-To run this application please use the command line:
+Once you have installed all dpenedencies please follow the below steps in your command line:
 
-1. Open the repository in your terminal or bash.
-2. Start the server by entering `npm run dev`.
-3. Test the API routes using Insomnia.
+1. Open the root directory in your terminal or bash.
+2. Bundle the front-end code by entering command line `npm run build`.
+3. Start the server by entering command line `npm run start`.
+4. Go to the port on your local host.
+5. Click the "Install" button.
+
+Heroku
+
+[Click here](https://module-19-pwa-text-editor.herokuapp.com/)
 
 ## Skills Used
 
-- Insomnia
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+- IndexedDB Package for the database
+- Webpack
+- Workbox Service Worker
+- Heroku
 
 ## Credits
 
-- [Mongoose](https://www.npmjs.com/package/mongoose)
-- [Express.js](https://www.npmjs.com/package/express)
-- [Insomnia](https://insomnia.rest/download)
+- [Starter Code](https://github.com/coding-boot-camp/cautious-meme)
