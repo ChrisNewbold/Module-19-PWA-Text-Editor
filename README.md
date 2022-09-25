@@ -98,7 +98,7 @@ Once you have installed all dpenedencies please follow the below steps in your c
 4. Go to the port on your local host.
 5. Click the "Install" button.
 
-Heroku
+To use the App on Heroku
 
 [Click here](https://module-19-pwa-text-editor.herokuapp.com/)
 
