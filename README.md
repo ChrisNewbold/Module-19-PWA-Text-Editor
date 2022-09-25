@@ -68,6 +68,9 @@ THEN I should have proper build scripts for a webpack application
 
 ## Mock-Up
 
+Deployed App on Heroku
+[click here](https://module-19-pwa-text-editor.herokuapp.com/)
+
 Please find MP4 of walk through below
 
 [click here for mp4](https://drive.google.com/file/d/1_Xtv83pGsYgsXpLRt1WB7F1v2GB1qJwr/view)
@@ -98,7 +101,7 @@ Once you have installed all dpenedencies please follow the below steps in your c
 4. Go to the port on your local host.
 5. Click the "Install" button.
 
-To use the App on Heroku
+To use the working App on Heroku
 
 [Click here](https://module-19-pwa-text-editor.herokuapp.com/)
 
