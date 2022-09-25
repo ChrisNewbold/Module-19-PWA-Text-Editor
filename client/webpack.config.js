@@ -9,7 +9,6 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      // cards: './src/js/database.js'
     },
     // output for our bundles
     output: {
@@ -17,7 +16,6 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     // Webpack plugin that generates our html file and injects our bundles.
-    // TODO: Add and configure workbox plugins for a service worker and manifest file.
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
@@ -48,7 +46,6 @@ module.exports = () => {
       }),
     ],
     // Injects our custom service worker
-    // TODO: Add CSS loaders and babel to webpack.
     module: {
       rules: [
         {
