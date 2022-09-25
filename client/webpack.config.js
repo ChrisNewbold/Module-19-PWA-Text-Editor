@@ -22,6 +22,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Text Editor',
+        favicon: "./favicon.ico"
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
