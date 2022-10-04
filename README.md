@@ -1,4 +1,4 @@
-# Module-18-NoSQL-Social-Network-API
+# Module-19-PWA-Text-Editor
 
 ## Table of Content
 
